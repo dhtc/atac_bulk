@@ -49,31 +49,6 @@ def Fragdistribution(Inbam,outfig,threads):
 
 
 
-# def mismatch_dist(seq1,query_length,read2_rc):
-	# for s1 in range(len(seq1)-query_length+1,-1,-1):
-		# temp_read1=seq1[s1:(s1+query_length)]
-		# dist=Levenshtein.distance(temp_read1,read2_rc)
-		# if dist<=2:
-			# return s1
-	# return -1
-
-# def rev_comp_dna_seq(read2):
-	# temp_read2=''
-	# for i in range(len(read2)-1,-1,-1):
-		# if (read2[i].lower()=='a'):
-			# temp_read2+='T'
-		# elif (read2[i].lower()=='t'):
-			# temp_read2+='A'
-		# elif (read2[i].lower()=='c'):
-			# temp_read2+='G'
-		# elif (read2[i].lower()=='g'):
-			# temp_read2+='C'
-		# elif (read2[i].lower()=='n'):
-			# temp_read2+='N'
-		# else:
-			# return 'error'
-	# return temp_read2
-
 ########################
 #shift for peak calling#
 ########################
@@ -166,5 +141,3 @@ def Normbedgraph(inbdg,outbdg,Readlength=50,Totalcount=10000000):
 	outfile.close()
 	return
 
-def footprint():
-	return
