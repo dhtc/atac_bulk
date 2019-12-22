@@ -348,7 +348,7 @@ class Pipeline(BasePipeline):
 					Parameter('-@',threads),
 					Parameter(os.path.join(align_clean_dir, '{}.bam'.format(libs[i]))),
 					Parameter(os.path.join(align_clean_dir,'%s.bam.bai'%libs[i]))
-				)#############unfinished
+				)
 			if chipqc_blacklist != 'None':
 				chipqc.run(
 					Parameter(chipqc_sample),
