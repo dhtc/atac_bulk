@@ -10,12 +10,12 @@ import time
 import math
 import numpy as np
 import scipy as sp
-#import matplotlib.pyplot as plt
+import matplotlib.pyplot as plt
 import collections
 import pandas as pd
 from atac_utils import to_log,ref_size,within_genome_boundary,shift_reads_bedpe,extend_bed,PerbasebedGraph,Normbedgraph,footprint,Fragdistribution
 from atac_load_cfg import load_cfg
-#matplotlib.use('Agg')
+matplotlib.use('Agg')
 
 
 MINUS_STRAND_SHIFT = -5
