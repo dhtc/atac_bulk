@@ -1,0 +1,1 @@
+chunky run atac_seq_pipeline_v2 --reads-cfg atac.cfg   --output human_retina  --ref-genome ${genome}/hg19/hg19   --threads 48 --effective-genome-size hs  --step 1,2,3,4,5,6,7,10,0 --visual-method pileup --extend 50

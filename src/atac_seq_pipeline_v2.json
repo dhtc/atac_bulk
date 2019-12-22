@@ -1,0 +1,54 @@
+{
+    "samtools": {
+        "path": ""
+    }, 
+    "fastqc": {
+        "path": ""
+    }, 
+    "picard": {
+        "path": ""
+    }, 
+    "fastp": {
+        "path": ""
+    }, 
+    "macs2": {
+        "path": ""
+    }, 
+    "bedtools": {
+        "path": "", 
+        "genome-sizes": "", 
+        "blacklist-bed": ""
+    }, 
+    "bowtie2": {
+        "path": "", 
+        "threads": "", 
+        "index-dir": ""
+    },
+    "run_spp_nodups":{
+        "path":""
+    },
+    "chipqc":{
+        "path":"",
+        "sample":"",
+        "annotation":""
+    },
+    "bdg2bw":{
+        "path":""
+    },
+    "bed_Clip":{
+        "path":""
+    },
+    "idr":{
+        "path":""
+    },
+    "make_tracks":{
+        "path":""
+    },
+    "pygenometracks":{
+        "path":""
+    },
+    "diffbind":{
+        "path":"",
+        "sample":""
+    }
+}
